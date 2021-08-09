@@ -1,1 +1,11 @@
 // This is a compilation of calculators I hope to code. If you have been given access, don't fuck with my code
+#include <iostream>
+
+int main() {
+    double pi, diameter, circumference; 
+    pi = 3.14;
+    std::cout << "Enter the diameter of the circle";
+    std::cin >> diameter;
+    circumference = pi * diameter;
+    std::cout << "The circumference of the circle is " << circumference << "\n";
+}
